@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 
 
 
-let dbURI = ""
+let dbURI = "mongodb+srv://pak:pak@cluster0.hrkro.mongodb.net/pak?retryWrites=true&w=majority"
 
 mongoose.connect(dbURI, { useNewUrlParser: true,
 useUnifiedTopology: true });
